@@ -1,0 +1,24 @@
+{
+  "name": "pharmacity-scraper",
+  "version": "1.0.0",
+  "description": "Automated drug data collector from Pharmacity using Gemini AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^2.7.0",
+    "ocr-space-api-wrapper": "^2.3.2",
+    "puppeteer": "^21.11.0",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^2.1.5"
+  }
+}
